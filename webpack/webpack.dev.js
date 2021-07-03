@@ -7,6 +7,14 @@ module.exports = {
     hot: true,
     open: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
   devtool: "cheap-module-source-map",
   plugins: [
     new webpack.DefinePlugin({

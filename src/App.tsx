@@ -1,4 +1,4 @@
-import "./styles/styles.css";
+import "./styles/styles.scss";
 import IMAGE from "./assets/react.png";
 import LOGO from "./assets/react.svg";
 import ClickCounter from "./ClickCounter";
