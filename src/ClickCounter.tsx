@@ -1,9 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 
-export interface ClickCounterProps {}
-
-const ClickCounter: React.FunctionComponent<ClickCounterProps> = () => {
+const ClickCounter: React.FunctionComponent = () => {
   const [count, setCount] = useState(0);
   return (
     <div>
